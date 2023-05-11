@@ -13,7 +13,6 @@ function App() {
     const json = await response.json();
     setMembersData(json);
   };
-  // console.log(membersData);
 
   useEffect(() => {
     fetchMembers();

@@ -2,24 +2,34 @@ import React, { useEffect, useState } from "react";
 import "./CovidData.css";
 import { useContext } from "react";
 import MyContext from "../MyContext";
-// import * as React from "react";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
+import { styled } from "@mui/material/styles";
 
 const CovidData = () => {
   const { membersData } = useContext(MyContext);
   const [unvaccinatedCount, setUnvaccinatedCount] = useState(0);
+  const [date, setDate] = useState("");
+
+  console.log(membersData);
+  const currentDate = () => {
+    const today = new Date();
+    const day = String(today.getDate()).padStart(2, "0");
+    const month = String(today.getMonth() + 1).padStart(2, "0");
+    const year = String(today.getFullYear()).slice(-2);
+    const formattedDate = `${day}/${month}/${year}`;
+
+    setDate(formattedDate);
+  };
+  useEffect(() => {
+    currentDate();
+  }, [currentDate]);
 
   const unvaccinatedMembers = () => {
+    let count = 0;
     membersData.forEach((member) => {
       if (member.vaccinations.length === 0) {
-        setUnvaccinatedCount(unvaccinatedCount + 1);
+        count++;
       }
-      console.log("jkj");
+      setUnvaccinatedCount(count);
     });
   };
 
@@ -27,20 +37,18 @@ const CovidData = () => {
     unvaccinatedMembers();
   }, [membersData]);
 
+  const Div = styled("div")(({ theme }) => ({
+    ...theme.typography.button,
+    backgroundColor: theme.palette.background.paper,
+    padding: theme.spacing(1),
+  }));
+
   return (
     <div className="CovidDataDiv">
       <div className="CoronaTitleDiv">
-        <h3>Corona Virus Data:</h3>
+        <h3>CORONA VIRUS DATA:</h3>
       </div>
-      <Card sx={{ maxWidth: 300 }}>
-        <CardContent>
-          <Typography variant="h7" component="div">
-            The total number of unvaccinated members:
-          </Typography>
-          <br />
-          <Typography variant="h7">{unvaccinatedCount}</Typography>
-        </CardContent>
-      </Card>
+      <Div>{`The total number of unvaccinated members: ${unvaccinatedCount}`}</Div>
     </div>
   );
 };
