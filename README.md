@@ -30,7 +30,7 @@
 
 ![image](https://github.com/talyamos/hadasim/assets/82223855/c06b073f-a2c3-4850-9507-5a7e22cbfe93)
 
-נשלוף חבר ספציפי מבסיס הנתוניפ:
+נשלוף חבר ספציפי מבסיס הנתונים:
 
 נכתוב בAPI את מספר תעודת הזהות של החבר:
 
@@ -42,20 +42,20 @@
 
 לבונוס:
 
-מימשתי צד לקוח שנוכל להעלות שם תמונה ולהציג אותה:
-![image](https://github.com/talyamos/hadasim/assets/82223855/c9739048-90f2-4947-bd53-bc09cf65366d)
+מימשתי צד לקוח בReact שנוכל להעלות שם תמונה ולהציג אותה:
+![image](https://github.com/talyamos/hadasim/assets/82223855/ccd093c6-b907-4e0b-bc05-e3467138eb47)
 
-![image](https://github.com/talyamos/hadasim/assets/82223855/6a9dccd7-6f66-4fe7-ad73-82044e4d654b)
+![image](https://github.com/talyamos/hadasim/assets/82223855/46ad09ef-85ee-4d7c-bd4e-8124df6bf21b)
 
 תצוגה סיכומית בנושא הקורונה:
 
 כמה חברים לא חוסנו כלל: נוסיף חבר לא מחוסן (במערך החיסונים שלו אין חיסונים):
 
-![image](https://github.com/talyamos/hadasim/assets/82223855/c2c73a7a-f18c-4c6a-9871-0b1bc652c820)
+![image](https://github.com/talyamos/hadasim/assets/82223855/bbd01a55-f1a2-4e2b-8d10-285bef6e401e)
 
 החבר נוסף למאגר ומספר החברים הלא מחוסנים עלה ב1:
 
-![image](https://github.com/talyamos/hadasim/assets/82223855/1eef8fed-68f6-4d79-9b9a-b153a0f133e9)
+![image](https://github.com/talyamos/hadasim/assets/82223855/d2c94385-5ea3-4d20-afcf-6171d3f5644e)
 
 
 
