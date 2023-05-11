@@ -57,6 +57,9 @@
 
 ![image](https://github.com/talyamos/hadasim/assets/82223855/d2c94385-5ea3-4d20-afcf-6171d3f5644e)
 
+חלק ב' – אסטרטגיית איכות:
+
+נמצא בקובץ PartBQualityStrategy ב exercise2 branch
 
 
 
