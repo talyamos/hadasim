@@ -47,6 +47,15 @@
 
 ![image](https://github.com/talyamos/hadasim/assets/82223855/6a9dccd7-6f66-4fe7-ad73-82044e4d654b)
 
+תצוגה סיכומית בנושא הקורונה:
+
+כמה חברים לא חוסנו כלל: נוסיף חבר לא מחוסן (במערך החיסונים שלו אין חיסונים):
+
+![image](https://github.com/talyamos/hadasim/assets/82223855/c2c73a7a-f18c-4c6a-9871-0b1bc652c820)
+
+החבר נוסף למאגר ומספר החברים הלא מחוסנים עלה ב1:
+
+![image](https://github.com/talyamos/hadasim/assets/82223855/1eef8fed-68f6-4d79-9b9a-b153a0f133e9)
 
 
 
