@@ -7,6 +7,7 @@
 תרגיל 2-מערכת ניהול קורונה לקופת חולים:
 
 חלק א' – פיתוח המערכת:
+
 מימשתי את צד השרת בNode.js (להורדה: https://nodejs.org/en/download)
 
 לבסיס הנתונים השתמשתי בmongoDB: (להורדת מונגודיבי: https://www.mongodb.com/try/download/community . להורדת mongoDB compass: https://www.mongodb.com/products/compass)
@@ -21,20 +22,32 @@
 
 נכתוב בJSON את הנתונים ונלחץ על send:
 
-![image](https://github.com/talyamos/hadasim/assets/82223855/48ca0c9f-1b9e-4cf2-a17b-d6f62d2bd19b)
+![image](https://github.com/talyamos/hadasim/assets/82223855/e9a27336-94e4-4603-a7a4-6d0801084b3c)
 
 
 החבר נוסף בבסיס הנתונים:
 
-![image](https://github.com/talyamos/hadasim/assets/82223855/03f159fd-9f94-4633-bd88-f858ee6daa85)
+![image](https://github.com/talyamos/hadasim/assets/82223855/c06b073f-a2c3-4850-9507-5a7e22cbfe93)
 
 נשלוף חבר ספציפי מבסיס הנתוניפ:
 
 נכתוב בAPI את מספר תעודת הזהות של החבר:
 
-![image](https://github.com/talyamos/hadasim/assets/82223855/8dd5e38e-2d68-4f97-9c9d-6a4703cc4ca7)
+![image](https://github.com/talyamos/hadasim/assets/82223855/2141a8be-f0de-47f8-9a4b-0dd24d2e212b)
 
 נלחץ על send ונקבל את הנתונים של החבר הרצוי:
 
-![image](https://github.com/talyamos/hadasim/assets/82223855/9092cbe1-0151-4515-adff-9202cc618407)
+![image](https://github.com/talyamos/hadasim/assets/82223855/0862f6fa-d18c-4713-9c3a-01e81f76e2b5)
+
+לבונוס:
+
+מימשתי צד לקוח שנוכל להעלות שם תמונה ולהציג אותה. אופן השימוש:
+![image](https://github.com/talyamos/hadasim/assets/82223855/c9739048-90f2-4947-bd53-bc09cf65366d)
+
+![image](https://github.com/talyamos/hadasim/assets/82223855/6a9dccd7-6f66-4fe7-ad73-82044e4d654b)
+
+
+
+
+
 
